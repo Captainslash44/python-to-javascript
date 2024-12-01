@@ -7,7 +7,7 @@ function FindPeaks(array) {
         indices.push(0)
     }
 
-    if (array[lastIndex] > array[indexBeforeLast] && array[lastIndex > array[0]]) {
+    if (array[lastIndex] > array[indexBeforeLast] && array[lastIndex] > array[0]) {
         indices.push(lastIndex)
     }
 
@@ -22,6 +22,6 @@ function FindPeaks(array) {
 }
 
 
-numbers = [5, 3, 4, 1, 0]
+numbers = [5, 3, 4, 1, 7]
 
 console.log(FindPeaks(numbers))
