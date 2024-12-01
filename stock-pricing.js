@@ -31,6 +31,6 @@ function StockPricing(array) {
 }
 
 
-numbers = [2, 3, 14, 5, 6, 1, 19]
+numbers = [0]
 
 console.log(StockPricing(numbers))
